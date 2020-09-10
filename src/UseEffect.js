@@ -1,59 +1,12 @@
 /**
- * Learn React useState
- * YouTube: https://youtu.be/O6P86uwfdR0
  * Learn React useEffect
  * YouTube: https://youtu.be/0ZJgIjIuY7U
  */
 
-/**
- * useState
- */
 import React, { useState, useEffect } from 'react'
 import './App.css'
 
-// export default function App() {
-//   // const [count, setCount] = useState(() => {
-//   //   console.log("Hello");
-//   //   return 4;
-//   // });
-
-//   // const [state, setState] = useState({ count: 4, theme: 'blue' })
-//   // const count = state.count
-//   // const theme = state.theme
-
-//   // function decrementCount() {
-//   //   setState(prevState => {
-//   //     return {...prevState, count: prevState.count - 1}
-//   //   })
-//   // }
-
-//   const [count, setCount] = useState(5)
-//   const [theme, setTheme] = useState('blue')
-
-//   function decrementCount() {
-//     setCount(prevState => prevState - 1)
-//     setTheme('red')
-//   }
-
-//   function incrementCount() {
-//     setCount(prevState => prevState + 1)
-//     setTheme('green')
-//   }
-
-//   return (
-//     <div className="App">
-//       <button onClick={decrementCount}>-</button>
-//       <span>{count}</span>
-//       <span>{theme}</span>
-//       <button onClick={incrementCount}>+</button>
-//     </div>
-//   )
-// }
-
-/**
- * useEffect
- */
-// export default function App() {
+// export default function UseEffectApp() {
 //   const [resourceType, setResourceType] = useState('posts')
 //   const [greet, setGreet] = useState('Hi')
 
@@ -88,7 +41,7 @@ import './App.css'
 //   )
 // }
 
-// export default function App() {
+// export default function UseEffectApp() {
 //   const [resourceType, setResourceType] = useState('posts')
 //   const [items, setItems] = useState([])
 
@@ -116,7 +69,7 @@ import './App.css'
 //   )
 // }
 
-// export default function App() {
+// export default function UseEffectApp() {
 //   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
 //   const handleResize = () => {
@@ -134,7 +87,7 @@ import './App.css'
 //   return <div>{windowWidth}</div>
 // }
 
-export default function App() {
+export default function UseEffectApp() {
   const [resourceType, setResourceType] = useState('posts')
 
   useEffect(() => {
