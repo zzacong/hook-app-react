@@ -4,13 +4,15 @@ import './index.css'
 import UseStateApp from './UseState'
 import UseEffectApp from './UseEffect'
 import UseMemoApp from './UseMemo'
+import UseContextApp from './UseContext'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <UseStateApp /> */}
     {/* <UseEffectApp /> */}
-    <UseMemoApp />
+    {/* <UseMemoApp /> */}
+    <UseContextApp />
   </React.StrictMode>,
   document.getElementById('root')
 )
