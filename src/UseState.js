@@ -4,7 +4,6 @@
  */
 
 import React, { useState } from 'react'
-import './App.css'
 
 export default function UseStateApp() {
   // const [count, setCount] = useState(() => {

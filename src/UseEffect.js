@@ -4,7 +4,6 @@
  */
 
 import React, { useState, useEffect } from 'react'
-import './App.css'
 
 // export default function UseEffectApp() {
 //   const [resourceType, setResourceType] = useState('posts')
