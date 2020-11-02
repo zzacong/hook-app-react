@@ -12,8 +12,8 @@ ReactDOM.render(
     {/* <UseStateApp /> */}
     {/* <UseEffectApp /> */}
     {/* <UseMemoApp /> */}
-    <UseRefApp />
-    {/* <UseContextApp /> */}
+    {/* <UseRefApp /> */}
+    <UseContextApp />
   </React.StrictMode>,
   document.getElementById('root')
 )

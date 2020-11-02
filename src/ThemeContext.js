@@ -1,7 +1,7 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, createContext } from 'react'
 
-const ThemeContext = React.createContext()
-const ThemeUpdateContext = React.createContext()
+const ThemeContext = createContext()
+const ThemeUpdateContext = createContext()
 
 // custom hook
 export function useTheme() {
@@ -14,7 +14,7 @@ export function useThemeUpdate() {
 
 export function ThemeProvider({ children }) {
   // creating state
-  const [darkTheme, setDarkTheme] = useState()
+  const [darkTheme, setDarkTheme] = useState(true)
   // updating state
   function toggleTheme() {
     setDarkTheme(prevDarkTheme => !prevDarkTheme)
