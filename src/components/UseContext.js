@@ -3,7 +3,7 @@
  * YouTube: https://youtu.be/5LrDIWkK_Bc
  */
 import React, { useState } from 'react'
-import FunctionContextComponent from './FunctionContextComponent'
+import FunctionContextComponent from '../contexts/FunctionContextComponent'
 
 // export const ThemeContext = React.createContext()
 
@@ -24,7 +24,7 @@ import FunctionContextComponent from './FunctionContextComponent'
 //   )
 // }
 
-import { ThemeProvider } from './ThemeContext'
+import { ThemeProvider } from '../contexts/ThemeContext'
 
 export default function UseContextApp() {
   return (
