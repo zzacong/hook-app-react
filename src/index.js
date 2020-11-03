@@ -7,6 +7,7 @@ import UseMemoApp from './components/UseMemo'
 import UseRefApp from './components/UseRef'
 import UseContextApp from './components/UseContext'
 import UseReducerApp from './components/UseReducer'
+import UseCallbackApp from './components/UseCallback'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,7 +16,8 @@ ReactDOM.render(
     {/* <UseMemoApp /> */}
     {/* <UseRefApp /> */}
     {/* <UseContextApp /> */}
-    <UseReducerApp />
+    {/* <UseReducerApp /> */}
+    <UseCallbackApp />
   </React.StrictMode>,
   document.getElementById('root')
 )
